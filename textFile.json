@@ -1,0 +1,30 @@
+{
+    "WELCOME_TEXT": { 
+        "es_es": "Somos una empresa dedicada a ayudar a los trabajadores que han sido despedidos, si crees que necesitas ayuda en este campo haz nuestro test para saber si podemos ayudarte?",
+        "en_en": "We are a company dedicated to helping workers who have been laid off, if you think you need help in this field, take our test to find out if we can help you?"
+    },
+    "ABOUT_US": {
+        "es_es": "Sobre Nosotros",
+        "en_en": "About us"
+    },
+    "TERMS_OF_USE": {
+        "es_es": "Terminos de uso",
+        "en_en": "Terms of use"
+    },
+    "RESOURCES": {
+        "es_es": "Recursos",
+        "en_en": "Resources"
+    },
+    "CONDITIONS": {
+        "es_es": "Condiciones",
+        "en_en": "Conditions"
+    },
+    "CONTACT": {
+        "es_es": "Contacto",
+        "en_en": "Contact"
+    },
+    "START_TEST": {
+        "es_es": "Empezar test",
+        "en_en": "Start Test"
+    }
+}

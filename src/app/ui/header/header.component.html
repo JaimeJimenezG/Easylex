@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="margin-left: 10vw;">
+      <img id="logo" src="assets/logo/logo-no-background.svg"/>
+    </ion-title>
+    <ion-buttons slot="secondary"  style="margin-right: 10vw;">
+      <ion-button fill="solid">
+        <ion-icon name="business-outline"></ion-icon>
+        {{ TEXT_FILE.ABOUT_US[langService.getLangKey()] }}
+      </ion-button>
+
+      <ion-button fill="solid">
+        <ion-icon name="person-circle"></ion-icon>
+        {{ TEXT_FILE.CONTACT[langService.getLangKey()] }}
+      </ion-button>
+
+      <app-lang-selector></app-lang-selector>
+
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

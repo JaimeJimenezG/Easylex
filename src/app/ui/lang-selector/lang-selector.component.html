@@ -1,0 +1,7 @@
+<ion-list>
+  <ion-item>
+    <ion-select (ionChange)="langService.selectLang($event.detail.value)" [value]="langService.getLang().description" interface="popover" placeholder="Select fruit">
+      <ion-select-option *ngFor="let lang of langs" [value]="lang.description">{{ lang.description }}</ion-select-option>
+    </ion-select>
+  </ion-item>
+</ion-list>

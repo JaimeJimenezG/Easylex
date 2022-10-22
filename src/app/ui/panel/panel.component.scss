@@ -1,0 +1,25 @@
+.info {
+    display: inline-block;
+    vertical-align: top;
+    width: clamp(400px, 30vw, 30vw);
+    border-radius: 10px;
+    padding: 2vh;
+    -webkit-box-shadow: -15px -8px 33px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px -8px 33px -7px rgba(0,0,0,0.75);
+    box-shadow: -15px -8px 33px -7px rgba(0,0,0,0.75);
+}
+  
+.light-background {
+    background-color: #c3bbbb94;
+    
+}
+
+.button-pos {
+    position: relative;
+    float: right;
+}
+
+p {
+    font-size: clamp(16px, 1.5vw, 22px);
+    margin: 0;
+}

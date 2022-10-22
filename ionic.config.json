@@ -1,0 +1,7 @@
+{
+  "name": "Easylex",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
