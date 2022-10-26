@@ -1,0 +1,14 @@
+<ion-content>
+  <div id="container">
+    <app-panel
+      [buttonNextText]="textFile['NEXT_NAVIGATION'][langService.getLangKey()]"
+      [buttonBackText]="textFile['PREV_NAVIGATION'][langService.getLangKey()]"
+      [type]="form[question].type"
+      [question]="question"
+      [inputText]="form[question][langService.getLangKey()]"
+      [routerButtonNext]="form[question].NEXT_NAVIGATION"
+      [routerButtonBack]="form[question].PREV_NAVIGATION"
+    ></app-panel>
+      <img [src]="form[question].IMAGE" />
+  </div>
+</ion-content>

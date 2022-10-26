@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import textFile from '../../../textFile.json';
-import { LangService } from '../services/lang.service';
+import textFile from '../../../../textFile.json';
+import { LangService } from '../../services/lang.service';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +9,6 @@ import { LangService } from '../services/lang.service';
 })
 export class HomePage {
 
-  TEXT_FILE = textFile;
+  text = textFile;
   constructor(public langService: LangService) {}
 }

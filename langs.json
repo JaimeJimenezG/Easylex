@@ -1,12 +1,12 @@
 [
     {
-        "key": "es_es",
+        "key": "es-ES",
         "description": "Español",
         "flag": "assets/flags/es_es.svg"
     },
 
     {
-        "key": "en_en",
+        "key": "en-EN",
         "description": "English",
         "flag": "assets/flags/en_en.svg"
     }

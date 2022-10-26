@@ -1,0 +1,13 @@
+<ion-content>
+  <div id="container">
+    <app-panel
+      [buttonNextText]="textFile['SEND'][langService.getLangKey()]"
+      [buttonBackText]="textFile['CANCEL'][langService.getLangKey()]"
+      [inputText]="textFile['SEND_INFO'][langService.getLangKey()]"
+      routerButtonNext="/home"
+      routerButtonBack="/home"
+      [nextButtonFunction]="formService.sendFormGroup"
+      ></app-panel>
+    <img src="assets/images/send.svg" />
+  </div>
+</ion-content>

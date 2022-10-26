@@ -1,30 +1,62 @@
 {
     "WELCOME_TEXT": { 
-        "es_es": "Somos una empresa dedicada a ayudar a los trabajadores que han sido despedidos, si crees que necesitas ayuda en este campo haz nuestro test para saber si podemos ayudarte?",
-        "en_en": "We are a company dedicated to helping workers who have been laid off, if you think you need help in this field, take our test to find out if we can help you?"
+        "es-ES": "Somos una empresa dedicada a ayudar a los trabajadores que han sido despedidos, si crees que necesitas ayuda en este campo haz nuestro test para saber si podemos ayudarte?",
+        "en-EN": "We are a company dedicated to helping workers who have been laid off, if you think you need help in this field, take our test to find out if we can help you?"
     },
     "ABOUT_US": {
-        "es_es": "Sobre Nosotros",
-        "en_en": "About us"
+        "es-ES": "Sobre Nosotros",
+        "en-EN": "About us"
     },
     "TERMS_OF_USE": {
-        "es_es": "Terminos de uso",
-        "en_en": "Terms of use"
+        "es-ES": "Terminos de uso",
+        "en-EN": "Terms of use"
     },
     "RESOURCES": {
-        "es_es": "Recursos",
-        "en_en": "Resources"
+        "es-ES": "Recursos",
+        "en-EN": "Resources"
     },
     "CONDITIONS": {
-        "es_es": "Condiciones",
-        "en_en": "Conditions"
+        "es-ES": "Condiciones",
+        "en-EN": "Conditions"
     },
     "CONTACT": {
-        "es_es": "Contacto",
-        "en_en": "Contact"
+        "es-ES": "Contacto",
+        "en-EN": "Contact"
     },
     "START_TEST": {
-        "es_es": "Empezar test",
-        "en_en": "Start Test"
+        "es-ES": "Empezar test",
+        "en-EN": "Start Test"
+    },
+    "NEXT_NAVIGATION": {
+        "es-ES": "Siguiente pregunta",
+        "en-EN": "Next Question"
+    },
+    "PREV_NAVIGATION": {
+        "es-ES": "Anterior pregunta",
+        "en-EN": "Last Question"
+    },
+    "TYPE_HERE": {
+        "es-ES": "Escribe aqui",
+        "en-EN": "Type here"
+    },
+    "GO_HOME": {
+        "es-ES": "Volver al inicio",
+        "en-EN": "Go home"
+    },
+    "ERROR": {
+        "es-ES": "Altooo!!!!!!!!!!!!!!!!!!!!! Usted no deberia de estar aqui, por favor vuelva a la pagina princiapl",
+        "en-EN": "Whooooops!!!!!!!!!!!!!!!!!! You shouldn't be here, please go back to the main page"
+    },
+    "SEND_INFO": {
+        "es-ES": "Enviar informe para evaluacion",
+        "en-EN": "Send info to evaluation"
+    },
+    "SEND": {
+        "es-ES": "Enviar",
+        "en-EN": "Send"
+    },
+    "CANCEL": {
+        "es-ES": "Cancelar",
+        "en-EN": "Cancel"
     }
 }

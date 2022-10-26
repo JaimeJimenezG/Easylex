@@ -1,0 +1,10 @@
+<ion-content>
+  <div id="container">
+    <app-panel
+      [buttonNextText]="textFile['GO_HOME'][langService.getLangKey()]"
+      [inputText]="textFile['ERROR'][langService.getLangKey()]"
+      routerButtonNext="/home"
+    ></app-panel>
+      <img src="assets/images/404_error.svg" />
+  </div>
+</ion-content>

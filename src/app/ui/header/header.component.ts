@@ -8,6 +8,6 @@ import textFile from '../../../../textFile.json';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  TEXT_FILE = textFile;
+  text = textFile;
   constructor(public langService: LangService) {}
 }

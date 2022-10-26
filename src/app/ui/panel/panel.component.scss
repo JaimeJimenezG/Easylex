@@ -7,6 +7,7 @@
     -webkit-box-shadow: -15px -8px 33px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: -15px -8px 33px -7px rgba(0,0,0,0.75);
     box-shadow: -15px -8px 33px -7px rgba(0,0,0,0.75);
+    text-align: left;
 }
   
 .light-background {
@@ -14,9 +15,18 @@
     
 }
 
-.button-pos {
+.button-next-pos {
     position: relative;
     float: right;
+}
+
+.button-back-pos {
+    position: relative;
+    float: left;
+}
+
+.center-widgets {
+    text-align: -webkit-center;
 }
 
 p {

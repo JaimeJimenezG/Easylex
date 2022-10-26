@@ -1,0 +1,25 @@
+{
+    "first": { 
+        "es-ES": "TEST Pregunta numero 1",
+        "en-EN": "TEST Question numer 1",
+        "NEXT_NAVIGATION": "/form/two",
+        "IMAGE": "assets/images/man_looking_phone.svg",
+        "type": "textField"
+    },
+    "two": { 
+        "es-ES": "TEST Pregunta numero 2",
+        "en-EN": "TEST Question numer 2",
+        "NEXT_NAVIGATION": "/form/three",
+        "PREV_NAVIGATION": "/form/first",
+        "IMAGE": "assets/images/meeting.svg",
+        "type": "calendarPick"
+    },
+    "three": { 
+        "es-ES": "TEST Pregunta numer 3",
+        "en-EN": "TEST Question numer 3",
+        "PREV_NAVIGATION": "/form/two",
+        "NEXT_NAVIGATION": "/send",
+        "IMAGE": "assets/images/boss_meeting.svg",
+        "type": "numericField"
+    }
+}

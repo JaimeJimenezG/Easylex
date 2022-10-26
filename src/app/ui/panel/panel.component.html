@@ -1,6 +1,20 @@
 <ion-card class="info">
   <ion-card-content>
     <p>{{ inputText }}</p>
+    <div class="center-widgets" *ngIf="!!type && !!formGroup && !!question">
+      <form [formGroup]="formGroup">
+          <ion-datetime displayFormat="MM DD YY" (ionChange)="setDate(formGroup, question, $event)" *ngIf="type === 'calendarPick'" [locale]="langService.getLangKey()"></ion-datetime>
+
+        <ion-item *ngIf="type === 'textField'">
+          <ion-textarea [name]="question" ngDefaultControl [formControlName]="question" [placeholder]="textFile['TYPE_HERE'][langService.getLangKey()]"></ion-textarea>
+        </ion-item>
+
+        <ion-item *ngIf="type === 'numericField'">
+          <ion-input [name]="question" ngDefaultControl [formControlName]="question" type="number" [placeholder]="textFile['TYPE_HERE'][langService.getLangKey()]"></ion-input>
+        </ion-item>
+      </form>
+    </div>
   </ion-card-content>
-  <ion-button color="dark" class="button-pos"> {{ buttontext }} </ion-button>
+  <ion-button *ngIf="!!buttonBackText  && !!routerButtonBack" [routerLink]="routerButtonBack" color="dark" class="button-back-pos"> {{ buttonBackText }} </ion-button>
+  <ion-button (click)="executer()" *ngIf="!!buttonNextText && (!!routerButtonNext || !!nextButtonFunction)" [routerLink]="routerButtonNext" color="dark" class="button-next-pos"> {{ buttonNextText }} </ion-button>
 </ion-card>

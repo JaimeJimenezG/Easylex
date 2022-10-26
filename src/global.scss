@@ -31,13 +31,17 @@
 
 img {
 	width: 60vh;
-  }
-  
-ion-icon {
-margin: 5px;
 }
-  
-ion-content { --background: transparent;}
+
+ion-icon {
+	margin: 5px;
+}
+
+ion-content {
+    --background: transparent;
+    --offset-top: -65px !important;
+    --offset-bottom: -56px !important;
+}
 
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -52,11 +56,30 @@ body {
 	0% {
 		background-position: 0% 50%;
 	}
+
 	50% {
 		background-position: 100% 50%;
 	}
+
 	100% {
 		background-position: 0% 50%;
 	}
 }
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+#container {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: wrap;
+	height: 100%;
+  }
   
+  #container strong {
+	font-size: 20px;
+	line-height: 26px;
+  }

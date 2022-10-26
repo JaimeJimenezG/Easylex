@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import langs from '../../../langs.json';
 
-export interface Lang {key: string, description: string};
+export interface Lang {key: string; description: string};
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +14,6 @@ export class LangService {
   constructor() { }
 
   selectLang(lang: string): Lang {
-    console.log('A');
     this.lang = langs.find(d => d.description === lang);
     return langs.find(d => d.description === lang);
   }
@@ -24,7 +23,6 @@ export class LangService {
   }
 
   getLang(): Lang {
-    console.log('b');
     return this.lang;
   }
 
