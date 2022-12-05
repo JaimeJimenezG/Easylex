@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import textFile from '../../../../textFile.json';
 import { LangService } from '../../services/lang.service';
 
